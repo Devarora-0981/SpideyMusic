@@ -81,7 +81,7 @@ async def fallen_boot():
     try:
         await app.send_message(
             config.LOGGER_ID,
-            f"<b>➻ ғᴀʟʟᴇɴ ᴍᴜsɪᴄ ʙᴏᴛ 🔮\n\n❄ ɪᴅ :</b> `{BOT_ID}`\n✨ <b>ɴᴀᴍᴇ :</b> {BOT_NAME}\n☁ <b>ᴜsᴇʀɴᴀᴍᴇ :</b> {BOT_USERNAME}",
+            f"<b>➻ ғᴀʟʟᴇɴ ᴍᴜsɪᴄ ʙᴏᴛ 🔮\n\n❄ ɪᴅ :</b> `{BOT_ID}`\n✨ <b>ɴᴀᴍᴇ :</b> {BOT_NAME}\n☁ <b>ᴜsᴇʀɴᴀᴍᴇ :</b> @{BOT_USERNAME}",
         )
     except Exception as e:
         print(
@@ -97,7 +97,7 @@ async def fallen_boot():
     try:
         await Ass.send_message(
             config.LOGGER_ID,
-            f"<b>➻ ғᴀʟʟᴇɴ ᴍᴜsɪᴄ ᴀssɪsᴛᴀɴᴛ 🔮\n\n❄ ɪᴅ :</b> `{ASSID}`\n✨ <b>ɴᴀᴍᴇ :</b> {ASSNAME}\n☁ <b>ᴜsᴇʀɴᴀᴍᴇ :</b> {ASSUSERNAME}",
+            f"<b>➻ ғᴀʟʟᴇɴ ᴍᴜsɪᴄ ᴀssɪsᴛᴀɴᴛ 🔮\n\n❄ ɪᴅ :</b> `{ASSID}`\n✨ <b>ɴᴀᴍᴇ :</b> {ASSNAME}\n☁ <b>ᴜsᴇʀɴᴀᴍᴇ :</b> @{ASSUSERNAME}",
         )
     except Exception as e:
         print(
@@ -188,7 +188,11 @@ async def start_command(_, message):
                 parse_mode="markdown",
                 reply_markup=key,
             )
-    return await message.reply_photo(
+            await app.send_message(
+                config.LOGGER_ID,
+                f"» {message.from_user.mention} ʜᴀs ᴊᴜsᴛ <b>sᴛᴀʀᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ</b>\n\n**ɪᴅ :** {message.from_user.id}\n**ɴᴀᴍᴇ :** {message.from_user.first_name}
+            )
+            return await message.reply_photo(
         photo=config.START_IMG,
         caption=home_text_pm,
         reply_markup=InlineKeyboardMarkup(
@@ -216,7 +220,7 @@ async def start_command(_, message):
             ],
             [
                 InlineKeyboardButton(
-                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://github.com/AnonymousR1025/FallenMusic"
+                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://github.com/AnonymousR1025/Fallen-Music"
                 )
             ],
         ]
@@ -254,7 +258,7 @@ async def fallen_home(_, CallbackQuery):
             ],
             [
                 InlineKeyboardButton(
-                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://github.com/AnonymousR1025/FallenMusic"
+                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://github.com/AnonymousR1025/Fallen-Music"
                 )
             ],
         ]
