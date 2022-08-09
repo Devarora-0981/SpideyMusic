@@ -1,0 +1,83 @@
+{
+  "name": "ғᴀʟʟᴇɴ ᴍᴜsɪᴄ",
+  "logo": "https://telegra.ph/file/89cbc8b8760b6abff430f.jpg",
+  "description": "A Fast & Powerful VC Player bot to play songs in Telegram Video Chat written in Python with the help of Pyrogram & PyTg-Calls.",
+  "keywords": ["music", "voicechat", "python", "telegram-bot", "pyrogram", "telegram", "fallen"],
+  "repository": "https://github.com/AnonymousR1025/FallenMusic",
+  "stack": "container",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org/apps",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org/apps",
+      "value": "",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "A Bot's token from Botfather",
+      "value": "",
+      "required": true
+    },
+    "LOGGER_ID": {
+      "description": "Chat id of a group where you'll get to know that your bot got started.",
+      "required": true,
+      "value": ""
+    },
+    "MONGO_DB_URI": {
+      "description": "A MongoDB Cloud database url from cloud.mongodb.com",
+      "value": "",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Telegram id of the person who will known as owner of the bot.",
+      "required": true,
+      "value": ""
+    },
+    "START_IMG": {
+      "description": "Telegraph link of an image which you wanna set as start pic of the bot.",
+      "required": false,
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "Pyrogram String Session of Assistant Account",
+      "required": true,
+      "value": ""
+    },
+    "SUDO_USERS": {
+      "description": "User IDs of the users who will counted as admin everywhere (if more than one separate them by space).",
+      "required": false,
+      "value": ""
+    },
+    "SUPPORT_CHAT": {
+      "description": "Support Group Link of your bot, Must start with https://t.me/",
+      "required": false,
+      "value": "https://t.me/DevilsHeavenMF"
+    },
+    "SUPPORT_CHANNEL": {
+      "description": "Support Channel Link of your bot, Your link must start with https://t.me/",
+      "required": false,
+      "value": "https://t.me/DevilsHeavenMF"
+    }
+  },
+  "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "container"
+}
