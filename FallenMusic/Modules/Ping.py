@@ -7,8 +7,9 @@ import psutil
 from pyrogram import filters
 from pyrogram.types import Message
 
-from FallenMusic import BOT_USERNAME, BOT_NAME, app, StartTime
+from FallenMusic.Helpers.Inline import ping_ig
 from FallenMusic.Helpers.Ping import get_readable_time
+from FallenMusic import BOT_USERNAME, BOT_NAME, app, StartTime
 
 
 __MODULE__ = "Pɪɴɢ"
@@ -42,5 +43,6 @@ async def ping(_, message):
     end = datetime.now()
     resp = (end - start).microseconds / 1000
     await hmm.edit_text(
-        f"**» ᴩᴏɴɢ ʙᴀʙʏ !**\n`☁ {resp}`ᴍs\n\n<b><u>{BOT_NAME} sʏsᴛᴇᴍ sᴛᴀᴛs :</u></b>{hehe}"
+        f"**» ᴩᴏɴɢ ʙᴀʙʏ !**\n`☁ {resp}`ᴍs\n\n<b><u>{BOT_NAME} sʏsᴛᴇᴍ sᴛᴀᴛs :</u></b>{hehe}",
+        reply_markup=ping_ig,
     )
