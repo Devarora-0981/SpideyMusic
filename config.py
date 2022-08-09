@@ -17,8 +17,8 @@ LOGGER_ID = int(getenv("LOGGER_ID"))
 MONGO_DB_URI = getenv("MONGO_DB_URI")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 
-PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/89cbc8b8760b6abff430f.jpg")
-START_IMG = getenv("START_IMG", "https://telegra.ph/file/89cbc8b8760b6abff430f.jpg")
+PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/c5952790fa8235f499749.jpg")
+START_IMG = getenv("START_IMG")
 
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DevilsHeavenMF")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", " https://t.me/FallenXBots")
