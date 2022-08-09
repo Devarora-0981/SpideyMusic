@@ -189,11 +189,7 @@ async def start_command(_, message):
                 parse_mode="markdown",
                 reply_markup=key,
             )
-            await app.send_message(
-                config.LOGGER_ID,
-                f"» {message.from_user.mention} ʜᴀs ᴊᴜsᴛ <b>sᴛᴀʀᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ</b>\n\n**ɪᴅ :** {message.from_user.id}\n**ɴᴀᴍᴇ :** {message.from_user.first_name}"
-            )
-            return await message.reply_photo(
+    return await message.reply_photo(
         photo=config.START_IMG,
         caption=home_text_pm,
         reply_markup=InlineKeyboardMarkup(
