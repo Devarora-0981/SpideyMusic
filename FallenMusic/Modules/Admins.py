@@ -96,7 +96,7 @@ async def admins(_, message: Message):
         if Queues.is_empty(chat_id):
             await remove_active_chat(chat_id)
             await message.reply_text(
-                "➻ **sᴛʀᴇᴀᴍ sᴋɪᴩᴩᴇᴅ** 🥺\n│ \n└ʙʏ : {message.from_user.first_name} 🥀\n\n» ɴᴏ ᴍᴏʀᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ɪɴ {message.chat.title}, **ʟᴇᴀᴠɪɴɢ ᴠɪᴅᴇᴏᴄʜᴀᴛ.**",
+                f"➻ **sᴛʀᴇᴀᴍ sᴋɪᴩᴩᴇᴅ** 🥺\n│ \n└ʙʏ : {message.from_user.first_name} 🥀\n\n» ɴᴏ ᴍᴏʀᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ɪɴ {message.chat.title}, **ʟᴇᴀᴠɪɴɢ ᴠɪᴅᴇᴏᴄʜᴀᴛ.**",
                 reply_markup=close_key,
             )
             await Fallen.pytgcalls.leave_group_call(message.chat.id)
