@@ -38,7 +38,7 @@
     },
     "START_IMG": {
       "description": "Telegraph link of an image which you wanna set as start pic of the bot.",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "STRING_SESSION": {
