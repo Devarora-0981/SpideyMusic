@@ -191,7 +191,7 @@ async def start_command(_, message):
             )
             await app.send_message(
                 config.LOGGER_ID,
-                f"» {message.from_user.mention} ʜᴀs ᴊᴜsᴛ <b>sᴛᴀʀᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ</b>\n\n**ɪᴅ :** {message.from_user.id}\n**ɴᴀᴍᴇ :** {message.from_user.first_name}
+                f"» {message.from_user.mention} ʜᴀs ᴊᴜsᴛ <b>sᴛᴀʀᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ</b>\n\n**ɪᴅ :** {message.from_user.id}\n**ɴᴀᴍᴇ :** {message.from_user.first_name}"
             )
             return await message.reply_photo(
         photo=config.START_IMG,
