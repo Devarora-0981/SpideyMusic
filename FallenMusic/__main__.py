@@ -107,6 +107,7 @@ async def fallen_boot():
         return
     try:
         await Ass.join_chat("DevilsHeavenMF")
+        await Ass.join_chat("FallenXBots")
     except:
         pass
     console.print(f"\n┌[red] Bot Started as {BOT_NAME}!")
