@@ -12,23 +12,6 @@ from FallenMusic.Helpers.Database import (approve_pmpermit, disapprove_pmpermit,
 
 
 __MODULE__ = "Assɪsᴛᴀɴᴛ"
-__HELP__ = f"""
-
-**ɴᴏᴛᴇ :**
-ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs
-
-{config.ASS_HANDLER[0]}approve [ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ's ᴍᴇssᴀɢᴇ] 
-» ᴀᴩᴩʀᴏᴠᴇs ᴛʜᴇ ᴜsᴇʀ ᴛᴏ ᴩᴍ ᴏɴ ʏᴏᴜʀ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.
-
-{config.ASS_HANDLER[0]}disapprove [ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ's ᴍᴇssᴀɢᴇ] 
-» ᴅɪsᴀᴩᴩʀᴏᴠᴇs ᴛʜᴇ ᴜsᴇʀ ᴛᴏ ᴩᴍ ᴏɴ ʏᴏᴜʀ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.
-
-{config.ASS_HANDLER[0]}pfp [ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴩʜᴏᴛᴏ] 
-» ᴄʜᴀɴɢᴇs ᴛʜᴇ ᴩғᴩ ᴏғ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜᴜɴᴛ.
-
-{config.ASS_HANDLER[0]}bio [ᴛᴇxᴛ] 
-» ᴄʜᴀɴɢᴇs ᴛʜᴇ ʙɪᴏ ᴏғ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.
-"""
 
 flood = {}
 
