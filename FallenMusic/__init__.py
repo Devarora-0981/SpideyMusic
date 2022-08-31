@@ -10,9 +10,9 @@ from rich.console import Console as hehe
 from aiohttp import ClientSession
 from motor.motor_asyncio import AsyncIOMotorClient as Bot
 
-from FallenMusic.Helpers.Logging import *
 from FallenMusic.Helpers.Changers import *
 from FallenMusic.Helpers.Clients import app, Ass
+from FallenMusic.Helpers.Logging import startup_msg, startup_edit, startup_del
 
 
 loop = asyncio.get_event_loop()
