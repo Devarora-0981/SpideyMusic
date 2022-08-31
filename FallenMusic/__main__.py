@@ -10,10 +10,10 @@ from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from youtubesearchpython import VideosSearch
 
-from FallenMusic.Helpers.Logging import *
 from FallenMusic.Helpers.PyTgCalls.Fallen import run
 from FallenMusic.Modules import ALL_MODULES
 from FallenMusic.Helpers.Inline import private_panel
+from FallenMusic.Helpers.Logging import startup_msg, startup_edit, startup_del
 from FallenMusic.Helpers.Database import get_active_chats, remove_active_chat, add_served_user
 from FallenMusic import (ASSID, ASSMENTION, ASSNAME, ASSUSERNAME, BOT_ID, BOT_NAME, BOT_USERNAME, SUDO_USERS, F_OWNER, db, app, Ass)
 
