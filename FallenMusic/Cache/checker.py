@@ -10,7 +10,7 @@ def checker(mystic):
                 "**» ʏᴏᴜ'ʀᴇ ᴀɴ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ.\n\n• ʀᴇᴠᴇʀᴛ ʙᴀᴄᴋ ᴛᴏ ᴜsᴇʀ ᴀᴄᴄᴏᴜɴᴛ ғᴏʀ ᴜsɪɴɢ ᴍᴇ.**"
             )
         if await is_on_off(1):
-            if int(message.chat.id) != int(LOGGER_ID):
+            if int(message.chat.id) != int(config.LOGGER_ID):
                 return await message.reply_text(
                     f"» {BOT_NAME} ɪs ᴜɴᴅᴇʀ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ.\n\nɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ᴋɴᴏᴡ ᴛʜᴇ ʀᴇᴀsᴏɴ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ [ʜᴇʀᴇ]({config.SUPPORT_CHAT}) !",
                     disable_web_page_preview=True,
@@ -28,7 +28,7 @@ def checker(mystic):
 def checkerCB(mystic):
     async def wrapper(_, CallbackQuery):
         if await is_on_off(1):
-            if int(CallbackQuery.message.chat.id) != int(LOGGER_ID):
+            if int(CallbackQuery.message.chat.id) != int(config.LOGGER_ID):
                 return await CallbackQuery.answer(
                     "» {BOT_NAME} ɪs ᴜɴᴅᴇʀ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ.",
                     show_alert=True,
