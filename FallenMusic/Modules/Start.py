@@ -49,7 +49,7 @@ async def welcome(_, message: Message):
             return
 
 
-@app.on_message(filters.command(["help", "start", f"start@{BOT_USERNAME}"]) & filters.group)
+@app.on_message(filters.command([f"musicstart@{BOT_USERNAME}", "musicstart, "musichelp"]) & filters.group)
 @PermissionCheck
 async def gstart(_, message: Message):
     await asyncio.gather(
