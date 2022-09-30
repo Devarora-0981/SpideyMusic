@@ -32,7 +32,7 @@ async def fallen_ping():
 💠 ᴅɪsᴋ : {disk}%"""
     return fallen
 
-@app.on_message(filters.command(["ping", "alive", f"ping@{BOT_USERNAME}"]))
+@app.on_message(filters.command("alive"))
 async def ping(_, message):
     hmm = await message.reply_photo(
         photo=config.PING_IMG,
