@@ -12,6 +12,7 @@ API_HASH = getenv("API_HASH")
 ASS_HANDLER = list(getenv("ASS_HANDLER", ".").split())
 BOT_TOKEN = getenv("BOT_TOKEN")
 
+
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 LOGGER_ID = int(getenv("LOGGER_ID"))
 MONGO_DB_URI = getenv("MONGO_DB_URI")
