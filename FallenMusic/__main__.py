@@ -105,8 +105,8 @@ async def fallen_boot():
         console.print(f"\n[red]Stopping Bot")
         return
     try:
-        await Ass.join_chat("DevilsHeavenMF")
-        await Ass.join_chat("AnonAssociation")
+        await Ass.join_chat("Devarora0981")
+        await Ass.join_chat("Devbotz")
     except:
         pass
     console.print(f"\n┌[red] Bot Started as {BOT_NAME}!")
