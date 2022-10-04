@@ -211,12 +211,12 @@ async def start_command(_, message):
                     text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT
                 ),
                 InlineKeyboardButton(
-                    text="💘 ᴄʜᴀɴɴᴇʟ 💘", url=config.SUPPORT_CHANNEL
+                    text="💘 FUN AND TIMEPASS 💘", url=config.SUPPORT_CHANNEL
                 ),
             ],
             [
-                InlineKeyboardButton(
-                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://github.com/AnonymousR1025/Fallen-Music"
+                
+
                 )
             ],
         ]
@@ -253,8 +253,8 @@ async def fallen_home(_, CallbackQuery):
                 ),
             ],
             [
-                InlineKeyboardButton(
-                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://github.com/AnonymousR1025/Fallen-Music"
+                
+                  
                 )
             ],
         ]
