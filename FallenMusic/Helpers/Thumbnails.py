@@ -121,7 +121,7 @@ async def thumb_init(videoid):
 
             image4 = ImageDraw.Draw(image2)
             image4.text((10, 10), "KING MUSIC", fill="white", font = font1, align ="left") 
-            image4.text((670, 150), "NOW STREAMING", fill="white", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
+            image4.text((670, 150), "KING MUSIC", fill="white", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
 
             # title
             title1 = truncate(title)
