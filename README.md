@@ -1,5 +1,5 @@
 <h2 align="center">
-──「✨ ᴠɪᴄᴋ ✘ ᴍᴜsɪᴄ ✨」──
+──「ᴠɪᴄᴋ ✘ ᴍᴜsɪᴄ」──
 </h2>
 
 <p align="center">
@@ -10,7 +10,7 @@
  ᴛʜᴇ ᴍᴏsᴛ ғᴀsᴛ ᴀɴᴅ ᴩᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ᴩʟᴀʏᴇʀ ʙᴏᴛ
 </h3>
 <h2 align="center">
-━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━
 </h2>
 
 <p align="center">
@@ -28,6 +28,9 @@
 <p align="center">
   <img src="https://telegra.ph/file/018fbdef43c96ca2092fc.jpg">
 </p>
+
+## ɴᴏᴛᴇ ☟︎︎︎
+<p>ᴜsᴇ ᴛʜɪs ʀᴇᴘᴏ ᴏɴʟʏ ᴡɪᴛʜ [ᴠɪᴄᴋᴍ ᴄʜᴀᴛʙᴏᴛ ʀᴇᴘᴏ](https://github.com/Devarora-0981/VickM).</p>
 
 <p align="center">
 <b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
@@ -61,6 +64,6 @@
 <a href="https://telegram.me/DEVBOTZ"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
-- **ᴛʜᴀɴᴋꜱ ᴛᴏ [-「 ᴀɴᴏɴʏᴍᴏᴜs」-](https://t.me/anonymous_was_bot) ғᴏʀ ᴇᴠᴇʀʏᴛʜɪɴɢ ❣️**
+- **ᴛʜᴀɴᴋꜱ ᴛᴏ [「 ᴀɴᴏɴʏᴍᴏᴜs」](https://t.me/anonymous_was_bot) ғᴏʀ ᴇᴠᴇʀʏᴛʜɪɴɢ ❣️**
 
 ----------------------------------------------------------
