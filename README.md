@@ -1,4 +1,4 @@
- <b align="centre">  ─「ᴠɪᴄᴋ ✘ ᴍᴜsɪᴄ」─</b>
+<p align="centre">  ─「ᴠɪᴄᴋ ✘ ᴍᴜsɪᴄ」─</p>
 
 <p align="center">
   <img src="https://telegra.ph/file/3e81d08db1a144c6a2f6b.jpg">
