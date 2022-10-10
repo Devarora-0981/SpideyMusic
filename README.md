@@ -1,6 +1,4 @@
-<h2
-──「✨ ᴠɪᴄᴋ ✘ ᴍᴜsɪᴄ ✨」──
-</h2>
+<h2> ──「✨ ᴠɪᴄᴋ ✘ ᴍᴜsɪᴄ ✨」── </h2>
 
 <p align="center">
   <img src="https://telegra.ph/file/3e81d08db1a144c6a2f6b.jpg">
@@ -30,7 +28,7 @@
 </p>
 
 ## ɴᴏᴛᴇ ☟︎︎︎
-<p>ᴜsᴇ ᴛʜɪs ʀᴇᴘᴏ ᴏɴʟʏ ᴡɪᴛʜ [ᴠɪᴄᴋᴍ ᴄʜᴀᴛʙᴏᴛ ʀᴇᴘᴏ](https://github.com/Devarora-0981/VickM).</p>
+ᴜsᴇ ᴛʜɪs ʀᴇᴘᴏ ᴏɴʟʏ ᴡɪᴛʜ [ᴠɪᴄᴋᴍ ᴄʜᴀᴛʙᴏᴛ ʀᴇᴘᴏ](https://github.com/Devarora-0981/VickM).
 
 <p align="center">
 <b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
