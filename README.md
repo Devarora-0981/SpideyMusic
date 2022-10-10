@@ -27,6 +27,10 @@
 ## ɴᴏᴛᴇ ☟︎︎︎
 ᴜsᴇ ᴛʜɪs ʀᴇᴘᴏ ᴏɴʟʏ ᴡɪᴛʜ [ᴠɪᴄᴋᴍ ᴄʜᴀᴛʙᴏᴛ ʀᴇᴘᴏ](https://github.com/Devarora-0981/VickM).
 
+<h2 align="center">
+━━━━━━━━━━━━
+</h2>
+
 <p align="center">
 <b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
 </p>
