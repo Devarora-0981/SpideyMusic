@@ -1,4 +1,4 @@
-<h2> ──「✨ ᴠɪᴄᴋ ✘ ᴍᴜsɪᴄ ✨」── </h2>
+<h2> ──「ᴠɪᴄᴋ ✘ ᴍᴜsɪᴄ」── </h2>
 
 <p align="center">
   <img src="https://telegra.ph/file/3e81d08db1a144c6a2f6b.jpg">
@@ -8,7 +8,7 @@
  ᴛʜᴇ ᴍᴏsᴛ ғᴀsᴛ ᴀɴᴅ ᴩᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ᴩʟᴀʏᴇʀ ʙᴏᴛ
 </h3>
 <h2 align="center">
-━━━━━━━━━━━━━━
+━━━━━━━━━━━━
 </h2>
 
 <p align="center">
@@ -20,12 +20,9 @@
 </p>
 
 <h2 align="center">
-━━━━━━━━━━━━━━
+━━━━━━━━━━━━
 </h2>
 
-<p align="center">
-  <img src="https://telegra.ph/file/018fbdef43c96ca2092fc.jpg">
-</p>
 
 ## ɴᴏᴛᴇ ☟︎︎︎
 ᴜsᴇ ᴛʜɪs ʀᴇᴘᴏ ᴏɴʟʏ ᴡɪᴛʜ [ᴠɪᴄᴋᴍ ᴄʜᴀᴛʙᴏᴛ ʀᴇᴘᴏ](https://github.com/Devarora-0981/VickM).
@@ -48,7 +45,7 @@
 <p align="center"><a href="https://cloud.okteto.com/deploy?repository=https://github.com/Devarora-0981/VickMusic"><img src="https://img.shields.io/badge/Deploy%20On%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200" height="35.45"/></a></p>
 
 <h2 align="center">
-━━━━━━━━━━━━━
+━━━━━━━━━━━
 </h2>
 
 <h3 align="center">
