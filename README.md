@@ -1,4 +1,4 @@
-       ─「ᴠɪᴄᴋ ✘ ᴍᴜsɪᴄ」─
+         ─「ᴠɪᴄᴋ ✘ ᴍᴜsɪᴄ」─
 
 <p align="center">
   <img src="https://telegra.ph/file/3e81d08db1a144c6a2f6b.jpg">
