@@ -1,4 +1,4 @@
-<p align="centre">  ─「ᴠɪᴄᴋ ✘ ᴍᴜsɪᴄ」─</p>
+<h1 align="centre">  ─「ᴠɪᴄᴋ ✘ ᴍᴜsɪᴄ」─ </h1>
 
 <p align="center">
   <img src="https://telegra.ph/file/3e81d08db1a144c6a2f6b.jpg">
@@ -20,7 +20,7 @@
 </p>
 
 <h2 align="center">
-━━━━━━━━━━━━
+━━━━━━━━━━━
 </h2>
 
 
@@ -56,7 +56,7 @@
 <a href="https://telegram.me/WE_RFRIENDS"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram" width="200" height="38.5"/></a>
 </p>
 <p align="center">
-<a href="https://telegram.me/DEVBOTZ"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/DEVBOTZ"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram" width="200" height="38.5"/></a>
 </p>
 
 - **ᴛʜᴀɴᴋꜱ ᴛᴏ [ᴀɴᴏɴʏᴍᴏᴜs](https://t.me/anonymous_was_bot) ғᴏʀ ᴇᴠᴇʀʏᴛʜɪɴɢ ❣️**
