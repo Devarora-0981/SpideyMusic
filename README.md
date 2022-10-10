@@ -57,10 +57,10 @@
 </h3>
 
 <p align="center">
-<a href="https://telegram.me/WE_RFRIENDS"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram" width="200" height="38.5"/></a>
+<a href="https://telegram.me/WE_RFRIENDS"><img src="https://img.shields.io/badge/-Support%20Group-black.svg?style=for-the-badge&logo=Telegram" width="200" height="38.5"/></a>
 </p>
 <p align="center">
-<a href="https://telegram.me/DEVBOTZ"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram" width="200" height="38.5"/></a>
+<a href="https://telegram.me/DEVBOTZ"><img src="https://img.shields.io/badge/-Support%20Channel-black.svg?style=for-the-badge&logo=Telegram" width="200" height="38.5"/></a>
 </p>
 
 - **ᴛʜᴀɴᴋꜱ ᴛᴏ [ᴀɴᴏɴʏᴍᴏᴜs](https://t.me/anonymous_was_bot) ғᴏʀ ᴇᴠᴇʀʏᴛʜɪɴɢ ❣️**
