@@ -113,7 +113,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             await message.reply_photo(
-                photo="FallenMusic/Utilities/Play.jpeg",
+                photo="FallenMusic/Utilities/play.png",
                 caption=(
                     "**➻ ᴛʜɪs ɪs ɴᴏᴛ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ғᴏʀᴍᴀᴛ ᴛᴏ ᴩʟᴀʏ.**\n\n**ᴇxᴀᴍᴩʟᴇ :** /play [sᴏɴɢ ɴᴀᴍᴇ ᴏʀ ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴀᴜᴅɪᴏ]"
                 ),
