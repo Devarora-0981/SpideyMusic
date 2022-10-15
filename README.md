@@ -12,11 +12,11 @@
 </h2>
 
 <p align="center">
-<a href="https://github.com/Devarora-0981/SpideyMusic/stargazers"><img src="https://img.shields.io/github/stars/Devarora-0981/SpideyMusic?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/Devarora-0981/SpideyMusic/network/members"> <img src="https://img.shields.io/github/forks/Devarora-0981/SpideyMusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/Devarora-0981/SpideyMusic/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/Devarora-0981/VickMusic/stargazers"><img src="https://img.shields.io/github/stars/Devarora-0981/VickMusic?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/Devarora-0981/VickMusic/network/members"> <img src="https://img.shields.io/github/forks/Devarora-0981/VickMusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/Devarora-0981/VickMusic/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://github.com/Devarora-0981/SpideyMusic/commits/AnonymousR1025"> <img src="https://img.shields.io/github/last-commit/Devarora-0981/SpideyMusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/Devarora-0981/VickMusic/commits/AnonymousR1025"> <img src="https://img.shields.io/github/last-commit/Devarora-0981/VickMusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 </p>
 
 <h2 align="center">
