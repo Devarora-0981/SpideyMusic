@@ -24,5 +24,5 @@ START_IMG = getenv("START_IMG")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DevilsHeavenMF")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", " https://t.me/FallenXBots")
 
-STRING_SESSION = getenv("STRING_SESSION", None)
+STRING_SESSION = getenv("STRING_SESSION", "")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5738896728").split()))
