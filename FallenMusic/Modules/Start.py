@@ -49,7 +49,7 @@ async def welcome(_, message: Message):
             return
 
 
-@app.on_message(filters.command([f"musicstart@{BOT_USERNAME}"]) & filters.group)
+@app.on_message(filters.command([f"start@{BOT_USERNAME}", "start", "help"]) & filters.group)
 @PermissionCheck
 async def gstart(_, message: Message):
     await asyncio.gather(
@@ -81,7 +81,7 @@ async def gstart(_, message: Message):
             ],
             [
                 InlineKeyboardButton(
-                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://github.com/AnonymousR1025/FallenMusic"
+                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://t.me/Devbotz"
                 ),
             ],
         ]
