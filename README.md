@@ -19,15 +19,7 @@
 <a href="https://github.com/Devarora-0981/VickMusic/commits/AnonymousR1025"> <img src="https://img.shields.io/github/last-commit/Devarora-0981/VickMusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 </p>
 
-<h2 align="center">
-━━━━━━━━━━━
-</h2>
-
-
-## ɴᴏᴛᴇ ☟︎︎︎
-ᴜsᴇ ᴛʜɪs ʀᴇᴘᴏ ᴏɴʟʏ ᴡɪᴛʜ [sᴘɪᴅᴇʏ ᴄʜᴀᴛʙᴏᴛ ʀᴇᴘᴏ](https://github.com/Devarora-0981/VickM).
-
-<h2 align="center">
+<h2 align="centre">
 ━━━━━━━━━━━━
 </h2>
 
