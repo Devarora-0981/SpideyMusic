@@ -125,15 +125,15 @@ SUDO = f"""
 /leavebot [ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ/ɪᴅ]
 » ᴏʀᴅᴇʀ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ʟᴇᴀᴠᴇ ᴛʜᴀᴛ ᴄʜᴀᴛ.
 
-{config.ASS_HANDLER[0]}approve [ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ's ᴍᴇssᴀɢᴇ] 
+/approve [ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ's ᴍᴇssᴀɢᴇ] 
 » ᴀᴩᴩʀᴏᴠᴇs ᴛʜᴇ ᴜsᴇʀ ᴛᴏ ᴩᴍ ᴏɴ ʏᴏᴜʀ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.
 
-{config.ASS_HANDLER[0]}disapprove [ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ's ᴍᴇssᴀɢᴇ] 
+/disapprove [ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ's ᴍᴇssᴀɢᴇ] 
 » ᴅɪsᴀᴩᴩʀᴏᴠᴇs ᴛʜᴇ ᴜsᴇʀ ᴛᴏ ᴩᴍ ᴏɴ ʏᴏᴜʀ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.
 
-{config.ASS_HANDLER[0]}pfp [ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴩʜᴏᴛᴏ] 
+/pfp [ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴩʜᴏᴛᴏ] 
 » ᴄʜᴀɴɢᴇs ᴛʜᴇ ᴩғᴩ ᴏғ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜᴜɴᴛ.
 
-{config.ASS_HANDLER[0]}bio [ᴛᴇxᴛ] 
+/bio [ᴛᴇxᴛ] 
 » ᴄʜᴀɴɢᴇs ᴛʜᴇ ʙɪᴏ ᴏғ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.
 """
