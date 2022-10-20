@@ -124,7 +124,7 @@ home_text_pm = f"""**ʜᴇʏ ,
 ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs."""
 
 
-@app.on_message(filters.command("musicstart") & filters.private)
+@app.on_message(filters.command("start") & filters.private)
 async def start_command(_, message):
     await add_served_user(message.from_user.id)
     if len(message.text.split()) > 1:
@@ -216,7 +216,7 @@ async def start_command(_, message):
             ],
             [
                 InlineKeyboardButton(
-                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://github.com/AnonymousR1025/Fallen-Music"
+                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://te.legra.ph/file/4dc54f9db4cb044a53f6b.mp4"
                 )
             ],
         ]
@@ -226,7 +226,7 @@ async def start_command(_, message):
 
 @app.on_callback_query(filters.regex("fallen_home"))
 async def fallen_home(_, CallbackQuery):
-    await CallbackQuery.answer("ғᴀʟʟᴇɴ ʜᴏᴍᴇ")
+    await CallbackQuery.answer("ʜᴏᴍᴇ")
     await CallbackQuery.message.edit_text(
         text=home_text_pm,
         reply_markup=InlineKeyboardMarkup(
@@ -254,7 +254,7 @@ async def fallen_home(_, CallbackQuery):
             ],
             [
                 InlineKeyboardButton(
-                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://github.com/AnonymousR1025/Fallen-Music"
+                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://te.legra.ph/file/4dc54f9db4cb044a53f6b.mp4"
                 )
             ],
         ]
