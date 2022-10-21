@@ -9,7 +9,7 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                    text="🥺 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🥺", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
                 ),
             ],
             [
@@ -25,12 +25,12 @@ def start_pannel():
                     text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT
                 ),
                 InlineKeyboardButton(
-                    text="💘 ᴄʜᴀɴɴᴇʟ 💘", url=config.SUPPORT_CHANNEL
+                    text="💫 ᴄʜᴀɴɴᴇʟ 💫", url=config.SUPPORT_CHANNEL
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://github.com/AnonymousR1025/FallenMusic"
+                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 👀", url="https://te.legra.ph/file/27d69e48b1e6fe2cab8d0.mp4"
                 )
             ],
         ]
@@ -41,7 +41,7 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                    text="🥺 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🥺", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
                 ),
             ],
             [
@@ -57,12 +57,12 @@ def private_panel():
                     text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT
                 ),
                 InlineKeyboardButton(
-                    text="💘 ᴄʜᴀɴɴᴇʟ 💘", url=config.SUPPORT_CHANNEL
+                    text="💫 ᴄʜᴀɴɴᴇʟ 💫", url=config.SUPPORT_CHANNEL
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://github.com/AnonymousR1025/FallenMusic"
+                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 👀", url="https://te.legra.ph/file/27d69e48b1e6fe2cab8d0.mp4"
                 ),
             ],
         ]
