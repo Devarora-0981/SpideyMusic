@@ -1,9 +1,9 @@
 {
   "name": "sᴘɪᴅᴇʏ ᴍᴜsɪᴄ",
-  "logo": "https://telegra.ph/file/89cbc8b8760b6abff430f.jpg",
+  "logo": "https://te.legra.ph/file/4aef216a6d2db7624e198.jpg",
   "description": "A Fast & Powerful VC Player bot to play songs in Telegram Video Chat written in Python with the help of Pyrogram & PyTg-Calls.",
   "keywords": ["music", "voicechat", "python", "telegram-bot", "pyrogram", "telegram", "fallen"],
-  "repository": "https://github.com/Devarora-0981/SpideyMusic",
+  "repository": "https://github.com/NeonTFB/RohitMusic",
   "stack": "container",
   "env": {
     "API_ID": {
@@ -54,12 +54,12 @@
     "SUPPORT_CHAT": {
       "description": "Support Group Link of your bot, Must start with https://t.me/",
       "required": false,
-      "value": "https://t.me/DevilsHeavenMF"
+      "value": "https://t.me/ThE_RoYaL_sQuAd21"
     },
     "SUPPORT_CHANNEL": {
       "description": "Support Channel Link of your bot, Your link must start with https://t.me/",
       "required": false,
-      "value": "https://t.me/DevilsHeavenMF"
+      "value": "https://t.me/uknowrohit"
     }
   },
   "buildpacks": [
