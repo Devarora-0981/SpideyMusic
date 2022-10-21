@@ -43,6 +43,6 @@ async def ping(_, message):
     end = datetime.now()
     resp = (end - start).microseconds / 1000
     await hmm.edit_text(
-        f"**» 🏓 ᴩᴏɴɢ ʙᴀʙʏ !** {resp}`ᴍs\n\n<b><u>[{BOT_NAME}](https://t.me/HoTTyRoBot) sʏsᴛᴇᴍ sᴛᴀᴛs :\n\n</u></b>{hehe}\n\n**»** ||ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ [𓆩𝐑ᴏʜɪᴛ𓆪](https://t.me/Rohit_x_Op) 🥀|| **«**",
-        reply_markup=ping_ig,
+        f"**» 🏓 ᴩᴏɴɢ ʙᴀʙʏ !** {resp}`ᴍs\n\n<b><u>{BOT_NAME}sʏsᴛᴇᴍ sᴛᴀᴛs :\n\n</u></b>{hehe}\n\n**»** ||ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ [𓆩𝐑ᴏʜɪᴛ𓆪](https://t.me/Rohit_x_Op)🥀|| **«**",
+        reply_markup=ping_ig
     )
