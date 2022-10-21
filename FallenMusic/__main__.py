@@ -105,7 +105,7 @@ async def fallen_boot():
         console.print(f"\n[red]Stopping Bot")
         return
     try:
-        await Ass.join_chat("ReAl_DRaMa_cLub21")
+        await Ass.join_chat("The_Royal_Squad21")
         await Ass.join_chat("uknowrohit")
     except:
         pass
@@ -124,7 +124,7 @@ home_text_pm = f"""**ʜᴇʏ ,
 ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs."""
 
 
-@app.on_message(filters.command("musicstart") & filters.private)
+@app.on_message(filters.command("start") & filters.private)
 async def start_command(_, message):
     await add_served_user(message.from_user.id)
     if len(message.text.split()) > 1:
