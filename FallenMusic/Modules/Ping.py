@@ -26,13 +26,13 @@ async def fallen_ping():
     mem = psutil.virtual_memory().percent
     disk = psutil.disk_usage("/").percent
     fallen = f"""
-✨ ᴜᴩᴛɪᴍᴇ : {get_readable_time((uptime))}
-☁ ᴄᴩᴜ : {cpu}%
-❄ ʀᴀᴍ : {mem}%
-💠 ᴅɪsᴋ : {disk}%"""
+💠 ᴜᴩᴛɪᴍᴇ : {get_readable_time((uptime))}
+❄️ ᴄᴩᴜ : {cpu}%
+💫 ʀᴀᴍ : {mem}%
+🔮ᴅɪsᴋ : {disk}%"""
     return fallen
 
-@app.on_message(filters.command("alive"))
+@app.on_message(filters.command("ping"))
 async def ping(_, message):
     hmm = await message.reply_photo(
         photo=config.PING_IMG,
@@ -43,6 +43,6 @@ async def ping(_, message):
     end = datetime.now()
     resp = (end - start).microseconds / 1000
     await hmm.edit_text(
-        f"**» ᴩᴏɴɢ ʙᴀʙʏ !**\n`☁ {resp}`ᴍs\n\n<b><u>{BOT_NAME} sʏsᴛᴇᴍ sᴛᴀᴛs :</u></b>{hehe}",
+        f"**» 🏓 ᴩᴏɴɢ ʙᴀʙʏ !** {resp}`ᴍs\n\n<b><u>[{BOT_NAME}](https://t.me/HoTTyRoBot) sʏsᴛᴇᴍ sᴛᴀᴛs :\n\n</u></b>{hehe}\n\n**»** ||ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ [𓆩𝐑ᴏʜɪᴛ𓆪](https://t.me/Rohit_x_Op) 🥀|| **«**",
         reply_markup=ping_ig,
     )
