@@ -105,8 +105,8 @@ async def fallen_boot():
         console.print(f"\n[red]Stopping Bot")
         return
     try:
-        await Ass.join_chat("we_rfriends")
-        await Ass.join_chat("Devbotz")
+        await Ass.join_chat("ReAl_DRaMa_cLub21")
+        await Ass.join_chat("uknowrohit")
     except:
         pass
     console.print(f"\n┌[red] Bot Started as {BOT_NAME}!")
@@ -124,7 +124,7 @@ home_text_pm = f"""**ʜᴇʏ ,
 ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs."""
 
 
-@app.on_message(filters.command("start") & filters.private)
+@app.on_message(filters.command("musicstart") & filters.private)
 async def start_command(_, message):
     await add_served_user(message.from_user.id)
     if len(message.text.split()) > 1:
@@ -195,7 +195,7 @@ async def start_command(_, message):
         [
             [
                 InlineKeyboardButton(
-                    text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                    text="🥺 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🥺", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
                 ),
             ],
             [
@@ -211,12 +211,12 @@ async def start_command(_, message):
                     text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT
                 ),
                 InlineKeyboardButton(
-                    text="💘 ᴄʜᴀɴɴᴇʟ 💘", url=config.SUPPORT_CHANNEL
+                    text="💫 ᴄʜᴀɴɴᴇʟ 💫", url=config.SUPPORT_CHANNEL
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://te.legra.ph/file/4dc54f9db4cb044a53f6b.mp4"
+                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 👀", url="https://te.legra.ph/file/c3a785291f07a6f580ac3.mp4"
                 )
             ],
         ]
@@ -226,14 +226,14 @@ async def start_command(_, message):
 
 @app.on_callback_query(filters.regex("fallen_home"))
 async def fallen_home(_, CallbackQuery):
-    await CallbackQuery.answer("ʜᴏᴍᴇ")
+    await CallbackQuery.answer("ғᴀʟʟᴇɴ ʜᴏᴍᴇ")
     await CallbackQuery.message.edit_text(
         text=home_text_pm,
         reply_markup=InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                    text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                    text="🥺 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🥺", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
                 ),
             ],
             [
@@ -249,12 +249,12 @@ async def fallen_home(_, CallbackQuery):
                     text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT
                 ),
                 InlineKeyboardButton(
-                    text="💘 ᴄʜᴀɴɴᴇʟ 💘", url=config.SUPPORT_CHANNEL
+                    text="💫 ᴄʜᴀɴɴᴇʟ 💫", url=config.SUPPORT_CHANNEL
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://te.legra.ph/file/4dc54f9db4cb044a53f6b.mp4"
+                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 👀", url="https://te.legra.ph/file/c3a785291f07a6f580ac3.mp4"
                 )
             ],
         ]
