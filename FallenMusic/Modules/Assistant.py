@@ -37,7 +37,7 @@ async def awaiting_message(_, message):
         flood[str(user_id)] += 1
     else:
         flood[str(user_id)] = 1
-    if flood[str(user_id)] > 4:
+    if flood[str(user_id)] > 2:
         await message.reply_text("**» sᴩᴀᴍ ᴅᴇᴛᴇᴄᴛᴇᴅ. ʙʟᴏᴄᴋɪɴɢ ᴛʜɪs ᴜsᴇʀ.**")
         await Ass.send_message(
             config.LOGGER_ID,
@@ -47,7 +47,7 @@ async def awaiting_message(_, message):
 
 
 @Ass.on_message(
-    filters.command("approve", prefixes=config.ASS_HANDLER)
+    filters.command(["approve", "a"], prefixes=config.ASS_HANDLER)
     & filters.user(SUDO_USERS)
     & ~filters.via_bot
 )
@@ -64,7 +64,7 @@ async def pm_approve(_, message):
 
 
 @Ass.on_message(
-    filters.command("disapprove", prefixes=config.ASS_HANDLER)
+    filters.command(["disapprove", "d"], prefixes=config.ASS_HANDLER)
     & filters.user(SUDO_USERS)
     & ~filters.via_bot
 )
