@@ -37,7 +37,7 @@ async def awaiting_message(_, message):
         flood[str(user_id)] += 1
     else:
         flood[str(user_id)] = 1
-    if flood[str(user_id)] > 2:
+    if flood[str(user_id)] > 1:
         await message.reply_text("**» sᴩᴀᴍ ᴅᴇᴛᴇᴄᴛᴇᴅ. ʙʟᴏᴄᴋɪɴɢ ᴛʜɪs ᴜsᴇʀ.**")
         await Ass.send_message(
             config.LOGGER_ID,
