@@ -1,4 +1,4 @@
-### ─「sᴘɪᴅᴇʏ ✘ ᴍᴜsɪᴄ」─
+<h2 align="centre"> ─「✨ sᴘɪᴅᴇʏ ✘ ᴍᴜsɪᴄ ✨」─</h2>
 
 <p align="center">
   <img src="https://telegra.ph/file/3e81d08db1a144c6a2f6b.jpg">
