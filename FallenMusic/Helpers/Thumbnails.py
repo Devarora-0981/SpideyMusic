@@ -120,7 +120,7 @@ async def thumb_init(videoid):
             font4 = ImageFont.truetype('FallenMusic/Utilities/font.ttf', 35)
 
             image4 = ImageDraw.Draw(image2)
-            image4.text((10, 10), "Spodermon Player", fill="white", font = font1, align ="left") 
+            image4.text((10, 10), "Music Player", fill="white", font = font1, align ="left") 
             image4.text((670, 150), "Now Streaming", fill="white", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
 
             # title
