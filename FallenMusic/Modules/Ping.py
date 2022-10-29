@@ -44,5 +44,4 @@ async def ping(_, message):
     resp = (end - start).microseconds / 1000
     await hmm.edit_text(
         f"**» ᴩᴏɴɢ ʙᴀʙʏ !**\n`☁ {resp}`ᴍs\n\n<b><u>{BOT_NAME} sʏsᴛᴇᴍ sᴛᴀᴛs :</u></b>{hehe}",
-        reply_markup=ping_ig,
     )
